@@ -1,0 +1,250 @@
+
+/* NAVI BAR */
+
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 80%;
+    overflow-x:hidden ;
+}
+.navi{
+    /* box-shadow: 0px .5px  rgb(105, 92, 92); */
+    text-decoration: none;
+    position:sticky;
+    top:0;
+    font-weight: 500;
+    backdrop-filter:blur(5px);
+    margin: 0;
+    padding: 2rem 9%;
+    z-index: 100;
+    
+
+
+}
+.navbar-brand{ 
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 750;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+a{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    font-size: large;
+    color:black;
+    border-bottom: 0.1rem solid transparent;
+    transition: 0.3s ease;
+}
+span{
+    color:blueviolet;
+}
+#navbarNavAltMarkup .navi-link:hover,.navi-link:active{
+    color: blueviolet;
+    text-decoration: solid;
+    border-bottom: 0.1rem solid blueviolet;
+}
+
+
+
+/* HOME */
+
+.home button{
+    color: white;
+    background-color: blueviolet;
+
+      
+    
+}
+
+
+
+
+/* ABOUT */
+
+#about{
+    background-color: rgb(236, 224, 248);
+}
+#about button{
+    background-color: rgb(89, 32, 86);
+    color: white;
+
+}
+
+
+/* skill */
+
+.heading{
+    text-align: center;
+}
+
+
+.info span{
+color: rgb(89, 32, 86)
+}
+.skill-bar{
+    padding: 25px 30px;
+    border-radius: 10px;
+    background-color:rgb(236, 224, 248);
+    margin: 20px 0;
+}
+.skill-bar .bar{
+    margin: 20px 0;
+}
+.skill-bar .bar .info{
+    margin-bottom: 5px;
+}
+
+.skill-bar .bar .info span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.skill-bar .bar .progress-line{
+    height: 10px;
+    width: 100%;
+    background:white;
+    position: relative;
+    border-radius: 10px;
+}
+.bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background: rgb(248, 245, 245);
+    cursor: pointer;
+}
+.bar .progress-line.html span{
+    width: 100%;
+    background-color:rgb(89, 32, 86)
+}
+.bar .progress-line.css span{
+    width: 100%;
+    background-color:rgb(89, 32, 86);
+}
+.bar .progress-line.javascript span{
+    width: 90%;
+    background-color:rgb(89, 32, 86)
+}
+.bar .progress-line.php span{
+    width: 50%;
+    background-color:rgb(89, 32, 86)
+}
+.bar .progress-line.python span{
+    width: 80%;
+    background-color:rgb(89, 32, 86)
+}
+.bar .progress-line.bootstrap span{
+    width: 80%;
+    background-color:rgb(89, 32, 86)
+}
+
+
+
+/*     projects    */
+
+#projects{
+    background:  rgb(236, 224, 248);
+    color: rgb(89, 32, 86);
+    text-align: center;
+}
+
+.pro{
+    background:white;
+    color: black;
+    border-radius: 10px;
+}
+.pro h4:hover{
+    color: rgb(199, 199, 20);
+}
+
+
+
+
+/* contact as      */
+
+
+#contact h1{
+    text-align: center;
+}
+.input{
+    color:rgb(89, 32, 86) ;
+}
+#contact button{
+    background-color: rgb(89, 32, 86);
+    color: white;
+
+}
+
+
+.form-control{
+    border: 2px solid rgb(89, 32, 86);
+   
+}
+.ab{color: white;
+    background-color: rgb(236, 224, 248);
+
+}
+#contact form{
+    max-width: 70rem;
+    text-align: center;
+}
+.rows{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* footer  */
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem 0 ;
+    background-color:rgb(251, 238, 250);
+}
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+.footer .social a{
+    padding-bottom: 25px;
+    color:  rgb(89, 32, 86);
+    border: 2px solid var  rgb(18, 17, 18);
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color:rgb(251, 238, 250);
+    color: rgb(89, 32, 86);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
